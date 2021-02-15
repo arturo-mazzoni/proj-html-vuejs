@@ -1,3 +1,4 @@
+/* regole generali */
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +9,13 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.container {
+  margin: auto;
+  width: 90%;
+}
+/* fine regole generali */
+
+/* testata */
 .header_top {
   height: 50px;
   width: 100%;
@@ -15,23 +23,41 @@ body {
 }
 
 .header_middle {
-  height: 90px;
+  height: 120px;
   width: 100%;
   background-color: lightgrey;
 }
 
 .header_bottom {
-  height: 50px;
+  height: 80px;
   width: 100%;
   background-color: grey;
 }
 
-.jumbo {
-  height: 400px;
+.jumbotron {
+  height: 395px;
   width: 100%;
-  background-color: lightblue;
+  margin-top: 30px;
+  background-color: #ff4450;
+  background-image: url("../img/slide-1.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
+.title {
+  font-size: 20px;
+  color: white;
+  max-width: 550px;
+  margin-left: 350px;
+  padding-top: 150px;
+}
+
+.title p {
+  margin-top: 15px;
+}
+/* fine testata */
+
+/* sezioni principali */
 .section_one {
   height: 400px;
   width: 100%;
@@ -73,7 +99,9 @@ body {
   width: 100%;
   background-color: lightblue;
 }
+/* fine sezioni principali */
 
+/* footer */
 .top_footer {
   height: 160px;
   width: 100%;
@@ -85,6 +113,7 @@ body {
   width: 100%;
   background-color: lightgrey;
 }
+/* fine footer */
 
 
 
