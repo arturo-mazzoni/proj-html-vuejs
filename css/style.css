@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header_top {
+  height: 50px;
+  width: 100%;
+  background-color: grey;
+}
+
+.header_middle {
+  height: 90px;
+  width: 100%;
+  background-color: lightgrey;
+}
+
+.header_bottom {
+  height: 50px;
+  width: 100%;
+  background-color: grey;
+}
+
+.jumbo {
+  height: 400px;
+  width: 100%;
+  background-color: lightblue;
+}
+
+.section_one {
+  height: 400px;
+  width: 100%;
+  background-color: lightgrey;
+}
+
+.section_two {
+  height: 400px;
+  width: 100%;
+  background-color: pink;
+}
+
+.section_three {
+  height: 400px;
+  width: 100%;
+  background-color: purple;
+}
+
+.section_four {
+  height: 800px;
+  width: 100%;
+  background-color: lightblue;
+}
+
+.section_five {
+  height: 120px;
+  width: 100%;
+  background-color: pink;
+}
+
+.section_six {
+  height: 400px;
+  width: 100%;
+  background-color: lightgrey;
+}
+
+.section_seven {
+  height: 400px;
+  width: 100%;
+  background-color: lightblue;
+}
+
+.top_footer {
+  height: 160px;
+  width: 100%;
+  background-color: grey;
+}
+
+.bottom_footer {
+  height: 60px;
+  width: 100%;
+  background-color: lightgrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* dfskvneoijg */
