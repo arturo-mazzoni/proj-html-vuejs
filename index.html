@@ -4,50 +4,125 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
 <body>
+  <div id="app">
+    <div class="header">
 
-  <div class="header">
+      <div class="header_top">
+        <div class="container">
+          <div class="language">
+            <span>English <i class="fas fa-chevron-down"></i></span>
+          </div>
 
-    <div class="header_top">
+          <div class="header_socials">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-google-plus"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+
+          <div class="home_menu">
+            <ul>
+              <li>Home</li>
+              <li>Pages</li>
+              <li>Course Formats</li>
+              <li>Courses</li>
+              <li>Demos</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="header_middle">
+        <div class="container">
+
+          <div class="header_logo">
+            <img src="img/MasterStudy.svg" alt="logo">
+          </div>
+
+          <div class="category">
+            <i class="fas fa-bars"></i>
+            <span>CATEGORY</span>
+          </div>
+
+          <div class="search">
+            <input type="text" placeholder="Search courses">
+          </div>
+
+          <!-- <div class="search_btn">
+            <i class="fas fa-search"></i>
+          </div> -->
+
+          <div class="middle_header_menu">
+            <ul>
+              <li><i class="fas fa-microphone"></i> Become an instructor</li>
+              <li><i class="fas fa-briefcase"></i> For Enterprise</li>
+            </ul>
+          </div>
+
+          <div class="sign_menu">
+            <ul>
+              <li><i class="far fa-user"></i> Log in</li>
+              <!-- <li>
+                <div class="btn">
+                  <span>sign up</span>
+                </div>
+              </li> -->
+              <li><i class="far fa-heart"></i></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="header_bottom">
+        <ul>
+          <li v-for="item in menu">{{item}}</li>
+        </ul>
+      </div>
+
+      <div class="jumbotron">
+        <div class="title">
+          <h1>Udemy Affiliate Sales</h1>
+          <p>Monetize your audience and attract new customers with Udemy!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section_one">
       <div class="container">
-        <div class="language">
-          <span>English <i class="fas fa-chevron-down"></i></span>
-        </div>
-        <div class="home_menu">
-
+        <h3>Popular Developement Courses</h3>
+        <div class="course_preview">
+          <img src="img/919872_ed54_6-272x161.jpg" alt="image">
+          <div class="course_box">
+            <h6>Development ></h6>
+            <p>The Complete iOS 10 & Swift3 Developer Cuorse</p>
+            <hr>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="header_middle"></div>
-    <div class="header_bottom"></div>
+    <div class="section_two">section_two</div>
+    <div class="section_three">section_three</div>
+    <div class="section_four">section_four</div>
+    <div class="section_five">section_five</div>
+    <div class="section_six">section_six</div>
+    <div class="section_seven">section_seven</div>
 
-    <div class="jumbotron">
-      <div class="title">
-        <h1>Udemy Affiliate Sales</h1>
-        <p>Monetize your audience and attract new customers with Udemy!</p>
-      </div>
+    <div class="footer">
+      <div class="top_footer">top_footer</div>
+      <div class="bottom_footer">bottom_footer</div>
     </div>
   </div>
-
-  <div class="section_one">section_one</div>
-  <div class="section_two">section_two</div>
-  <div class="section_three">section_three</div>
-  <div class="section_four">section_four</div>
-  <div class="section_five">section_five</div>
-  <div class="section_six">section_six</div>
-  <div class="section_seven">section_seven</div>
-
-  <div class="footer">
-    <div class="top_footer">top_footer</div>
-    <div class="bottom_footer">bottom_footer</div>
-  </div>
-
 
   <script src="js/script.js" charset="utf-8"></script>
 </body>
