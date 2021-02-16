@@ -158,13 +158,13 @@ body {
 /* sezioni principali */
 /* inizio sezione uno */
 .section_one {
-  height: 400px;
   width: 100%;
 }
 
 .course_preview {
-  width: 280px;
-  background-color: lightblue;
+  width: 240px;
+  margin-bottom: 80px;
+  border: 1px solid #e2e2e2;
 }
 
 .course_preview img {
@@ -180,47 +180,93 @@ body {
   padding: 20px;
 }
 
+.course_box hr {
+  color: #e2e2e2;
+  margin-bottom: 20px;
+}
+
 .course_box h6 {
   margin-bottom: 20px;
   color: #aaaaaa;
 }
-/* fine sezione uno */
 
-.section_two {
-  height: 400px;
-  width: 100%;
-  background-color: pink;
+.course_box p {
+  margin-bottom: 20px;
 }
 
+.vote_price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price span:first-child {
+  text-decoration: line-through;
+  color: #aaaaaa;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+/* fine sezione uno */
+
+/* inizio sezione due */
+.section_two {
+  height: 520px;
+  width: 100%;
+  background-image: url("../img/bg.png");
+}
+
+.btn_two {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 12px;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 35px;
+  background-color: #ff4450;
+}
+/* fine sezione due */
+
+/* inizio sezione tre */
 .section_three {
   height: 400px;
   width: 100%;
   background-color: purple;
 }
+/* fine sezione tre */
 
+/* inizio sezione quattro */
 .section_four {
   height: 800px;
   width: 100%;
   background-color: lightblue;
 }
+/* fine sezione quattro */
 
+/* inizio sezione cinque */
 .section_five {
   height: 120px;
   width: 100%;
   background-color: pink;
 }
+/* fine sezione cinque */
 
+/* inizio sezione sei */
 .section_six {
   height: 400px;
   width: 100%;
   background-color: lightgrey;
 }
+/* fine sezione sei */
 
+/* inizio sezione sette */
 .section_seven {
   height: 400px;
   width: 100%;
   background-color: lightblue;
 }
+/* fine sezione sette */
 /* fine sezioni principali */
 
 /* footer */

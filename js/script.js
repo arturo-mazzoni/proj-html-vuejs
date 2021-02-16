@@ -7,6 +7,7 @@ let app = new Vue ({
       "Development",
       "Lifestyle",
       "Office Productivity"
-    ]
+    ],
+    voto: 4
   }
 });
