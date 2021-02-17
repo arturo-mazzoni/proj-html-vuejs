@@ -422,24 +422,122 @@ body {
 
 /* inizio sezione sette */
 .section_seven {
-  height: 400px;
+  height: 620px;
   width: 100%;
-  background-color: lightblue;
+  position: relative;
+  background-image: url("../img/testimonial-1-1917x640-1-1914x639.jpg");
+}
+
+.future {
+  background-color: white;
+  max-width: 540px;
+  padding: 60px;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translateY(-50%);
+}
+
+.future h2 {
+  margin-bottom: 30px;
+}
+
+.future p {
+  margin-bottom: 30px;
 }
 /* fine sezione sette */
 /* fine sezioni principali */
 
 /* footer */
+.footer {
+  color: white;
+  background-color: #273044;
+}
+
+.container_footer {
+  width: 1200px;
+  margin: auto;
+}
+
 .top_footer {
-  height: 160px;
+  height: 360px;
   width: 100%;
-  background-color: grey;
+  border-bottom: 1px solid #aaaaaa;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_box {
+  width: calc(100% / 4 - 40px);
+  margin-top: 60px;
+}
+
+.footer_box p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.footer_box a {
+  text-decoration: none;
+  color: #aaaaaa;
+}
+
+.top_footer h6 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.footer_box img {
+  width: 260px;
+}
+
+.social {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  margin: 8px;
+  float: left;
+  text-align: center;
+  line-height: 48px;
+}
+
+.fb {
+  background-color: #3b5998;
+}
+
+.insta {
+  background-color: #c32aa3;
+}
+
+.linkedin {
+  background-color: #0077b5;
+}
+
+.pinterest {
+  background-color: #bd081c;
+}
+
+.twitter {
+  background-color: #1da1f2;
+}
+
+.net {
+  background-color: #ea4c89;
+}
+
+.google {
+  background-color: #db4437;
+}
+
+.skype {
+  background-color: #00aff0;
 }
 
 .bottom_footer {
   height: 60px;
   width: 100%;
-  background-color: lightgrey;
 }
 /* fine footer */
 
