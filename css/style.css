@@ -47,6 +47,11 @@ body {
   float: left;
 }
 
+.language:hover {
+  color: #273044;
+  cursor: pointer;
+}
+
 .home_menu {
   float: right;
 }
@@ -57,6 +62,11 @@ body {
   margin-right: 20px;
 }
 
+.home_menu ul li:hover {
+  color: #273044;
+  cursor: pointer;
+}
+
 .header_socials {
   float: right;
 }
@@ -64,39 +74,42 @@ body {
 .header_socials i {
   margin-left: 8px;
 }
+
+.header_socials i:hover {
+  color: #273044;
+  cursor: pointer;
+}
 /* fine header top */
 
 /* inizio header middle */
 .header_middle {
   height: 110px;
   width: 100%;
-  line-height: 110px;
   color: #777777;
   font-size: 13px;
 }
 
-.header_logo img {
-  margin-top: 36px;
-  float: left;
+.category:hover {
+  color: #273044;
+  cursor: pointer;
 }
 
-.category {
-  float: left;
-  margin-left: 60px;
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
 }
 
 .search {
   height: 46px;
-  float: left;
   position: relative;
   display: flex;
-  margin-top: 30px;
 }
 
 .header_middle .container .search input {
-  width: 600px;
+  width: 560px;
   height: 46px;
-  margin-left: 10px;
   padding: 12px;
   background-color: #f0f2f5;
   border: none;
@@ -116,8 +129,8 @@ body {
   display: inline-block;
 }
 
-.middle_header_menu {
-  float: left;
+.search_btn:hover {
+  cursor: pointer;
 }
 
 .middle_header_menu ul li {
@@ -126,8 +139,12 @@ body {
   margin-left: 20px;
 }
 
+.middle_header_menu ul li:hover {
+  color: #273044;
+  cursor: pointer;
+}
+
 .sign_menu {
-  float: right;
   display: flex;
 }
 
@@ -143,7 +160,6 @@ body {
   color: black;
   border-radius: 25px;
   padding: 10px 20px;
-  float: left;
   background-color: #ff4450;
 }
 /* fine header middle */
@@ -160,7 +176,12 @@ body {
 .header_bottom ul li {
   list-style-type: none;
   display: inline-block;
-  padding-left: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.header_bottom ul li:hover {
+  background-color: #457992;
 }
 
 .jumbotron {
